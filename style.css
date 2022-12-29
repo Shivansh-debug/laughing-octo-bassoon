@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px !important;
+}
+canvas {
+    animation-name: anything;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anything {
+    0%{box-shadow: 8px 8px 10px 0px deeppink, -5px -5px 5px 0px blue,
+        5px 5px 30px 0px yellow;}
+    25%{box-shadow: 8px 8px 10px 0px red, -5px -5px 5px 0px green,
+        5px 5px 30px 0px blue;}
+    50%{box-shadow: 8px 8px 10px 0px rgb(52, 214, 255), -5px -5px 5px 0px rgb(255, 170, 0),
+        5px 5px 30px 0px rgb(208, 208, 124);}
+    75%{box-shadow: 8px 8px 10px 0px rgb(153, 0, 255), -5px -5px 5px 0px rgb(0, 0, 255),
+        5px 5px 30px 0px rgb(72, 255, 0);}
+    100%{box-shadow: 8px 8px 10px 0px rgb(255, 212, 235), -5px -5px 5px 0px blue,
+        5px 5px 30px 0px rgb(255, 238, 139);} 
+}
